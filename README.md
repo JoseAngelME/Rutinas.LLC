@@ -1,2 +1,2 @@
 # Rutinas.LLC
-Maquetado del proyecto completo.
+Implementación de funcuinalidades
