@@ -1,0 +1,82 @@
+{
+    "ejercicios": [
+        {
+            "Brazo": [
+                {
+                    "nombre": "Curl de barra en pie.",
+                    "desc": "Abrir compas a medida de los hombros, echar los hombros hacia atras y levantar la barra hasta la altura del cuello y bajar despacio.",
+                    "img": "../Rutinas.LLC/img/brazo/curlBarra.jpg",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                },
+                {
+                    "nombre": "Press JM con Mancuernas.",
+                    "desc": "Recostarse en el banquillo, colocar las mancuernas a la altura de la cien y subir.",
+                    "img": "../Rutinas.LLC/img/brazo/pressJM.jpg",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                },
+                {
+                    "nombre": "Curls de martillo.",
+                    "desc": "De pie alinenado el compas con los hombros, levantar las mancuernas a la altura de los hombros y bajar.",
+                    "img": "../Rutinas.LLC/img/brazo/curlMartillo.webp",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                },
+                {
+                    "nombre": "Jalones de triceps.",
+                    "desc": "En la polea con el agarre en V sujetar desde la parte baja y jalar hacia abajo concentrado en el tricep.",
+                    "img": "../Rutinas.LLC/img/brazo/JalonesT.jpeg",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                },
+                {
+                    "nombre": "Curl predicador con barra EZ",
+                    "desc": "",
+                    "img": "../Rutinas.LLC/img/brazo/curlPredicador.webp",
+                    "gif": "",
+                    "rep": "4 series x 6-8 reps"
+                }
+            ],
+            "Hombro": [
+                {
+                    "nombre": "Press militar por encima de la cabeza con Mancuernas/barra.",
+                    "desc": "Sentado o de pie, levantar la mancuerna o barra y bajar hasta la altur de los hombros con un angulo de brazos de 180° y volver a subir.",
+                    "img": "../Rutinas.LLC/img/hombro/pressMilitar.webp",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                },
+                {
+                    "nombre": "Elevaciones laterales con mancuernas.",
+                    "desc": "Lo ideal es levantar los brazos hasta la paralela con el suelo; es decir, con las muñecas a línea con los hombros.",
+                    "img": "../Rutinas.LLC/img/hombro/pressMilitar.webp",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                },
+                {
+                    "nombre": "Elevaciones frontales con cable.",
+                    "desc": "De pie, con la espalda mirando hacia la máquina de cable y las rodillas ligeramente flexionadas. Agarra el asa con la mano por encima (en pronación), con el brazo a lo largo del cuerpo y el codo ligeramente doblado, manteniendo el codo ligeramente flexionado, levanta lentamente el brazo hacia delante haciendo un arco.",
+                    "img": "../Rutinas.LLC/img/hombro/elevFront.webp",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                },
+                {
+                    "nombre": "Jalones a la cara con elevación por encima de la cabeza.",
+                    "desc": "Párese derecho con los pies anchura de los hombros, agarrar la resistencia en forma de V con los pulgares en dirección usted y retroceda para tensar la polea, sus manos deben estar ligeramente más altas que su cara y sus brazos deben estar rectos. Contraiga el suelo pelvico y el core mientras mantiene su pecho levantado. Retrayendo los omóplatos, tire de la cuerda hacia la barbilla al mismo tiempo que mueve las manos hacia las orejas.",
+                    "img": "../Rutinas.LLC/img/hombro/remoCara.webp",
+                    "gif": "",
+                    "rep": "4 series x 10 reps"
+                }
+            ],
+            "Pectoral": [
+                {}
+            ], 
+            "Espalda": [], 
+            "Abdomen": [], 
+            "Pierna": [], 
+            "Gluteo": [], 
+            "Flexibilidad": [], 
+            "Resistencia/cardio": []
+        }
+    ]
+}

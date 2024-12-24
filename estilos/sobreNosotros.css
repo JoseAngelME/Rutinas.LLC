@@ -1,0 +1,43 @@
+html body{
+    margin: 0 auto;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.row{
+    justify-content: center;
+    gap: 20px; 
+}
+
+footer{
+    position: relative;
+    justify-content: space-around; 
+    bottom: 0;
+    margin-top: auto;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer p{
+    margin: 5px 5px 5px 5px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutinas.LLC</title>
+    <link rel="shortcut icon" href="../Rutinas.LLC/img/icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/index.css" id="smain">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <nav class="cabezera nav nav-pills bg-dark">
+                <li class="nav-item"><a href="Vista/login.html" class="nav-link active">Iniciar sesión</a></li>
+                <li class="nav-item"><a href="Vista/registro.html" class="nav-link active">Registrarse</a></li>
+                <li class="nav-item"><a href="Vista/rutina.html" class="nav-link active">Rutinas</a></li>
+            </nav>
+        </header>
+    </div>
+    <div class="contenedorA">
+        <main id="izq">
+            <select name="ejercicios" id="ejercicios" class="form-select form-select-md mb-3">
+                <option value="0">Brazo</option>
+                <option value="1">Hombro</option>
+                <option value="2">Pectoral</option>
+                <option value="3">Espalda</option>
+                <option value="4">Abdomen</option>
+                <option value="5">Pierna</option>
+                <option value="6">Gluteo</option>
+                <option value="7">Flexibilidad</option>
+                <option value="8">Resistencia/cardio</option>
+            </select>
+        </main>
+        <section class="contenidoAPI " id="cAPI"></section>
+    </div>
+    <footer class="bg-dark">
+        <p>Rutinas.LLC &copy; 2024 -2025</p>
+        <p><a href="Vista/sobreNosotros.html"
+                class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sobre
+                Nosotros</a></p>
+        </p>
+        <p><a href="https://www.udg.mx/es"
+                class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Universidad
+                de Guadalajara</a></p>
+        <p><a href="https://cuci.udg.mx/"
+                class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Centro
+                universitario de la cienega</a></p>
+    </footer>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="Controlador/js/consumir.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generar Rutina</title>
+  <link rel="shortcut icon" href="../img/icon.webp" type="image/x-icon">
+  <link rel="stylesheet" href="../estilos/rutinas.css">
+  <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav nav-pills bg-dark">
+      <li class="nav-item"><a href="../Vista/login.html" class="nav-link active">Iniciar sesión</a></li>
+      <li class="nav-item"><a href="../Vista/registro.html" class="nav-link active">Registrarse</a></li>
+      <li class="nav-item"><a href="../index.html" class="nav-link active">Principal</a></li>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-md-4 col-lg-2 bg-dark d-flex d-md-block p-3">
+        <div class="form-group">
+          <label for="peso" class="label-form">Peso</label>
+          <input type="text" class="form-control" id="peso" name="peso" required>
+        </div>
+        <div class="form-group">
+          <label for="altura" class="label-form">Altura</label>
+          <input type="text" class="form-control" id="altura" name="altura" required>
+        </div>
+        <div class="form-group">
+          <label for="gen" class="label-form">Genero</label>
+          <input type="text" class="form-control" id="gen" name="gen" required>
+        </div>
+        <div class="form-group">
+          <label for="dias" class="label-form">Frecuencia de entrenamiento</label>
+          <input type="number" class="form-control" name="dias" id="dias" placeholder="Dias por semana" required>
+        </div>
+        <div class="form-group">
+          <label for="rutina" class="label-form">Rutina</label>
+          <select name="rutina" id="rutina" class="form-select form-select-md mb-3">
+            <option value="Hipertrofia">Hipertrofia</option>
+            <option value="Resistencia">Resistencia</option>
+            <option value="Definición">Definición</option>
+            <option value="Flexibilidad">Flexibilidad</option>
+            <option value="Fuerza">Fuerza</option>
+          </select>
+        </div>
+        <button id="procesar" class="btn btn-dark">Procesar</button>
+        <h3>Inicia sesion para cargar y guardar tu rutina.</h3>
+        <button class="btn btn-dark" id="cargarDatos" disabled>Cargar Datos</button>
+
+        <a href="seguimiento.html"
+          class="btn-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Ir a
+          Seguimiento</a>
+        <form action="../Controlador/php/rutina.php" method="post" id="formulario">
+          <div id="ocultos">
+
+          </div>
+        </form>
+      </aside>
+      <main class="col-md-8 col-lg-10 p-4" id="principal"></main>
+    </div>
+  </div>
+
+  <footer class="bg-dark">
+    <p>Rutinas.LLC &copy; 2024 -2025</p>
+    <p><a href="Vista/sobreNosotros.html.html"
+        class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sobre
+        Nosotros</a></p>
+    </p>
+    <p><a href="https://www.udg.mx/es"
+        class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Universidad
+        de Guadalajara</a></p>
+    <p><a href="https://cuci.udg.mx/"
+        class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Centro
+        universitario de la cienega</a></p>
+  </footer>
+
+  <script src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <script src="../Controlador/js/consumirRutina.js"></script>
+  <!-- <script src="../Controlador/js/cargar.js"></script> -->
+</body>
+
+</html>

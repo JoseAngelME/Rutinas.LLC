@@ -1,0 +1,54 @@
+html body{
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(14, 13, 13);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    flex-direction: column; 
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    margin: 0 auto;
+    color: white;
+    background-color: transparent;
+    min-width: 310px;
+    font-family: monospace;
+    overflow-wrap: anywhere;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;  
+    padding: 5rem;
+    border: 2px solid;
+    border-radius: 30px;
+    border-color: rgb(111, 135, 158);
+    text-shadow: 1px 1px 1px rgb(136, 165, 179);  
+}
+
+form:hover{
+    border-width: 1px;
+    transition: ease-in;
+    text-shadow: 1px 1px 1px rgb(1, 129, 248), 1px 1px 1px rgb(1, 129, 248);
+    box-shadow: 5px 5px 5px rgb(1, 129, 248), 
+    -5px -5px 5px rgb(4, 133, 253);
+}
+
+form a:hover{
+    text-shadow: 1px 1px 1px rgb(1, 38, 248), 1px 1px 1px rgb(1, 38, 248);
+    text-decoration: none;
+}
+
+.container h4{
+    color:rgb(4, 133, 253);
+    text-shadow: 2px 2px 30px;
+}

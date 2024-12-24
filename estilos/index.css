@@ -1,0 +1,115 @@
+html body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 26, 26);
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+nav.cabezera {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding: 20px;
+}
+
+
+nav.cabezera a:hover {
+    opacity: 80%;
+}
+nav.cabezera button:hover{
+    opacity: 80%;
+}
+
+/* Flexbox container */
+.contenedorA {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main section */
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+    scroll-behavior: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 30rem;
+    flex-grow: 1;
+}
+
+main .form-select {
+    width: 100%;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 15rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.contenidoAPI{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.contenidoAPI .card{
+    max-width: 15rem;
+    padding: 12px;
+}
+
+@media (max-width: 768px) {
+    .contenidoAPI {
+        flex-direction: column;      /* Cambia a disposición vertical en pantallas más estrechas */
+    }
+}
+
+
+/* Botones */
+button #mostrar{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+footer {
+    position: relative;
+    justify-content: space-around; 
+    bottom: 0;
+    margin-top: auto;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer p{
+    margin: 5px 5px 5px 5px;
+}

@@ -1,0 +1,46 @@
+{
+    "hipertrofia": {},
+    "resistencia": {
+        "routine": [
+            {
+                "ejercicio": "Saltar cuerda",
+                "series": 4,
+                "reps": "1 minuto por serie",
+                "descanso": "30 segundos"
+            },
+            {
+                "ejercicio": "Sentadillas",
+                "series": 4,
+                "reps": 20,
+                "descanso": "1 minuto"
+            },
+            {
+                "ejercicio": "Flexiones",
+                "series": 4,
+                "reps": 15,
+                "descanso": "1 minuto"
+            },
+            {
+                "ejercicio": "Plancha",
+                "series": 3,
+                "reps": "45 segundos - 1 minuto",
+                "descanso": "30 segundos"
+            },
+            {
+                "ejercicio": "Estocadas",
+                "series": 3,
+                "reps": 15,
+                "descanso": "1 minuto"
+            },
+            {
+                "ejercicio": "Abdominales",
+                "series": 3,
+                "reps": 25,
+                "descanso": "1 minuto"
+            }
+        ]
+    },
+    "definicion": {},
+    "flexibilidad": {},
+    "fuerza": {}
+}
