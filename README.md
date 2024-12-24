@@ -1,2 +1,2 @@
 # Rutinas.LLC
-Implementación de funcuinalidades
+Implementación de funcionalidades
