@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: http://localhost/Rutinas.LLC/*");
+header("Access-Control-Allow-Origin: http://localhost/Rutinas.LLC/Controlador/*");
 
 // Métodos permitidos (GET, POST, etc.)
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
