@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="../estilos/registro.css">
     <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <title>Registro</title>
+    <script defer src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script defer src="../Controlador/js/registro.js"></script>
 </head>
 <body>
     <div class="container d-flex justify-content-center align-items-center text-align-center">
-        <form action="" method="post" required>
-            <h4>Registrate para guardar tus rutinas</h4>
+        <form method="post" name="form" id="form" required>
+            <h4>Registrate para guardar y seguir tus rutinas</h4>
             <br>
-            <div class="form-group">
+            <div class="form-group campo">
                 <label for="usuario">Nombre de usuario:</label>
                 <input type="text" class="form-control" id="usuario" name="usuario" required>
             </div>
-            <div class="form-group">
+            <div class="form-group campo">
                 <label for="email">Correo electronico:</label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
-            <div class="form-group">
+            <div class="form-group campo">
                 <label for="pwd">Contraseña:</label>
                 <input type="password" class="form-control" id="pwd" name="pwd" required>
             </div>
@@ -29,7 +31,15 @@
             <p>¿Ya tienes cuenta? -> <a href="login.html" class="link-light">Inicia sesión aquí</a></p>
             <a href="../index.html" class="link-light">Pagina principal</a>
         </form>
+        <div class="verificar" id="verificar">
+            <label for="codigo">Ingresa el código de verificación:</label> 
+            <input type="text" name="codigo" id="codigo" class="codigo">
+            <button type="button" class="btn btn-primary" id="enviar" name="verificar">Verificar</button>
+        </div>
+        <div id="ir" class="justify-content-center flex-wrap border-primary" style="display: none;">
+            <h5>Verificación exitosa, inicia sesion con tu correo electronico</h5>
+            <a href="login.html" class="btn-link">Iniciar sesión</a>
+        </div>
     </div>
-    <script src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

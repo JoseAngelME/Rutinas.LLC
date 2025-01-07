@@ -41,16 +41,19 @@
         <div class="form-group">
           <label for="rutina" class="label-form">Rutina</label>
           <select name="rutina" id="rutina" class="form-select form-select-md mb-3">
-            <option value="Hipertrofia">Hipertrofia</option>
-            <option value="Resistencia">Resistencia</option>
-            <option value="Definición">Definición</option>
-            <option value="Flexibilidad">Flexibilidad</option>
-            <option value="Fuerza">Fuerza</option>
+            <option value="0">Hipertrofia</option>
+            <option value="1">Resistencia</option>
+            <option value="2">Definición</option>
+            <option value="3">Flexibilidad</option>
+            <option value="4">Fuerza</option>
           </select>
         </div>
         <button id="procesar" class="btn btn-dark">Procesar</button>
-        <h3>Inicia sesion para cargar y guardar tu rutina.</h3>
-        <button class="btn btn-dark" id="cargarDatos" disabled>Cargar Datos</button>
+
+        <div class="consideracion" id="consideracion">
+          <h5>Inicia sesion para cargar y guardar tu rutina.</h5>
+          <button class="btn btn-dark" id="cargarDatos" disabled>Cargar Datos</button>
+        </div>
 
         <a href="seguimiento.html"
           class="btn-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Ir a

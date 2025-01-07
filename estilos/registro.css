@@ -52,3 +52,54 @@ form a:hover{
     color:rgb(4, 133, 253);
     text-shadow: 2px 2px 30px;
 }
+
+#verificar {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgb(236, 236, 236);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color:rgb(0, 0, 0);
+    width: 20rem;
+    height: 15rem;
+  }
+
+  #verificar input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    justify-content: center;
+  }
+
+  #verificar button {
+    max-width: 10rem;
+}
+
+#ir{
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgb(236, 236, 236);
+    color:rgba(0, 0, 0, 0.712);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    gap: 5px;
+}
